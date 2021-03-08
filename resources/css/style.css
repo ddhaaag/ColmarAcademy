@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.2;
+}
+
+header,
+main, 
+footer {
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0 24px;
+    height: 64px;
+}
+
+header .logo {
+    background-image: url('/resources/images/ic-logo.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 25px;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+.logo .logoname {
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.menu li {
+    margin-right: 16px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Main */
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #E8E8E8;
+    /* width: 100%; */
+}
+
+.banner .banner-image {
+    padding: 32px 24px;
+    flex: 1 1 60%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .banner-info {
+ align-self: center;
+ flex: 1 1 40%;
+}
+
+.banner-info h1 {
+    font-size: 3rem;
+}
+
+.banner-info p {
+    font-size: 1.5rem;
+}
+
+.banner-info .btn {
+    background-color: 	#383838;
+    color: #fff;
+    padding: 10px 100px;
+    cursor: pointer;
+    text-decoration: none;
+   
+} 
+
+.banner .btn {
+    text-align: center;
+}
+
+/* information */
+
+.information, .exhibit {
+    display: flex;
+    flex-flow: row nowrap;
+  
+}
+
+.information .info-left, .urban {
+    padding: 32px 24px;
+    flex: 1 1 60%;
+}
+
+.info-left img {
+    width: 100%;
+    height: auto;
+}
+
+.information .info-rigth, .fisma {
+    padding: 32px 16px;
+    flex: 1 1 40%;
+}
+
+.info-rigth .container, .fisma .container {
+    display: flex;
+    border-left: 1px solid #000;
+}
+
+.info-rigth .container .image {
+    flex: 1 1 35%;
+    
+}
+
+.info-rigth .container .txt {
+    flex: 1 1 65%;
+ 
+}
+
+.info-rigth img, .fisma img {
+    width: 150px;
+    height: auto;
+}
+
+.info-rigth .container .txt {
+    flex: 2;
+}
+
+
+/* Learning */
+.learning {
+    padding: 32px 72px;
+    text-align: center;
+    background-color: 	#e6e6e6;
+}
+
+.learning  h2 {
+    font-size: 3rem;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.image-container .images {
+    width: 25%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.image-container .images:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+/* urban */
+
+.urban video {
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #606060;
+    padding: 16px 24px;
+}
+
+footer p {
+    margin-right: auto;
+}
+footer a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #000;
+}
