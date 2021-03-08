@@ -38,7 +38,7 @@ header {
 }
 
 header .logo {
-    background-image: url('/resources/images/ic-logo.svg');
+    background-image: url('./resources/images/ic-logo.svg');
     background-repeat: no-repeat;
     background-size: 30px 25px;
     margin-right: auto;
